@@ -28,6 +28,10 @@ calRSI <- function(x) {
     outab<-rbind(i,RSIi)
     RSI <-cbind(RSI,outab)
   }
+    RSI<-as.data.frame(RSI)
+   colnames(RSI)<-RSI[1,]
+   RSI<-RSI[2,]
+   return(RSI)
 }
 
 
