@@ -1,0 +1,11 @@
+Package: RSI
+Type: Package
+Title: Radiosensitivity Index
+Version: 0.1.0
+Author: FINCHmed
+Maintainer: The package maintainer <liguangqimed@hotmail.com>
+Description: Calculation Radiosensitivity Index based on RNA-seq data
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
